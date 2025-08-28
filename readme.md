@@ -36,8 +36,8 @@ timestamp=$(date '+%d%m%Y-%H%M%S')  # Timestamp format
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/<your-username>/<repo-name>.git
-   cd <repo-name>
+   git clone https://github.com/saurav-22/Automation_Project.git
+   cd Automation_Project
    ```
 
 2. Make the script executable:
@@ -61,19 +61,6 @@ timestamp=$(date '+%d%m%Y-%H%M%S')  # Timestamp format
   ```
   s3://upgrad-saurav/saurav-httpd-logs-<timestamp>.tar
   ```
-
----
-
-## ⏰ Automation (Optional)
-You can schedule this script using `cron` to run automatically. Example:  
-```bash
-sudo crontab -e
-```
-
-Add the following line to run the script daily at midnight:
-```
-0 0 * * * /path/to/automation.sh
-```
 
 ---
 
